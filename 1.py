@@ -8,3 +8,7 @@ tensor2 = tf.constant([1, 2, 3])
  
 result = tf.add(tensor1, tensor2)
 print(result)
+
+tf.Tensor(
+[[2 4 6]
+ [5 7 9]], shape(2, 3), dtype=int32)
