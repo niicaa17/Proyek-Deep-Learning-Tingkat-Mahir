@@ -12,3 +12,8 @@ print(result)
 tf.Tensor(
 [[2 4 6]
  [5 7 9]], shape(2, 3), dtype=int32)
+
+ tensor1 = tf.constant(3)
+tensor2 = tf.constant(8)
+ 
+np.add(tensor1, tensor2)
