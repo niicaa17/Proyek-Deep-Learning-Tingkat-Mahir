@@ -17,3 +17,8 @@ tf.Tensor(
 tensor2 = tf.constant(8)
  
 np.add(tensor1, tensor2)
+
+tensor1 = tf.constant(3)
+tensor2 = tf.constant(8)
+ 
+np.add(tensor1, tensor2)
