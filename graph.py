@@ -37,3 +37,11 @@ end_time = time.time()
  
 print(f"Hasil Graph Mode: {hasil.numpy()}")
 print(f"Waktu Eksekusi Kedua Graph: {end_time - start_time:.4f} detik")
+
+def penjumlahan(a, b):
+    return a + b
+ 
+x = tf.constant(2)
+y = tf.constant(5)
+ 
+print(penjumlahan(x, y))
